@@ -3,6 +3,7 @@ const server=http.createServer((req, res)=>{
     res.writeHead(200, {'Content-Type': 'text/html'})
     res.write('<html>')
         res.write('<head>')
+	    res.write('<title>My First Server</title>')
         res.write('</head>')
         res.write('<body>')
             res.write('<p>I am from the server you have just created</p>')
